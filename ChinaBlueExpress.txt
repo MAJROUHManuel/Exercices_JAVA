@@ -1,0 +1,5 @@
+Exercice 10
+
+La méthode concat() ne renvoie rien: il faut qu'elle retourne un String et rajouter return s à la fin.
+Une fois cette erreur corrigée, il faut dans la méthode main() utiliser une 3ème variable de type String pour contenir le résultat de la concaténation.
+Par exemple String s3 = concat(s, " Express"); puis System.out.println(s3); . 

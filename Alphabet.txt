@@ -1,0 +1,29 @@
+Exercice3
+
+L'affichage que doit donner l'exécution de la méthode main() dans la classe Alphabet est le suivant:
+
+Classe A
+--------------
+Classe A
+Classe B
+--------------
+Classe A
+Classe B
+Classe C
+--------------
+a = 1
+--------------
+a = 2
+b = 6
+--------------
+a = 9
+b = 6
+c = 8
+--------------
+
+De la ligne 5 à la ligne 13, nous avons l'affichage de la première boucle for() qui affiche la classe appellée. La méthode super() dans les classes B et C vont donc réafficher les classes précédentes.
+
+De la ligne 14 à la ligne 22, nous avons l'affichage de la deuxième boucle for() affichant les valeurs de a, b et c. 
+Pour A(1) a vaut 1. Pour B(2) a vaut 2 car B.a = B.b, et et b vaut 6 car B.b = 6.
+Pour C(3) a vaut 9 car la classe C n'a pas de valeur C.a: la méthode super(3 * c) va donc remonter jusqu'à la classe A où a = 3 * c = 3 * 3 = 9. c vaut 8 car C.c = 8. 
+Enfin b vaut 6 car il y a un effet de "shadowing" de B.b sur C.b: quoi qu'il arrive ce sera toujours la valeur de B.b qui sera utilisée à la place de C.b. 

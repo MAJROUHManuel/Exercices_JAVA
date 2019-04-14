@@ -1,0 +1,17 @@
+Exercice 4
+
+* La méthode methode1() est fausse car elle ne possède pas de parenthèses.
+
+* Dans methode2(), la variable i1 n'a pas de type dans sa déclaration: elle doit être de type int.
+
+* methode3() ne renvoie rien, elle doit donc être static void methode3().
+
+* Dans methode4(), la variable a est de type String. Elle doit donc être static String methode4().
+
+* Dans methode5(), la variable a est de type double. Elle doit donc être static double methode5().
+
+* Dans methode6(), la variable a est de type double. Elle doit donc être static double methode6().
+
+* Dans methode7(), la méthode methodeSansErreur() doit prendre les deux arguments int a et double b: elle doit être écrite de cette façon methodeSansErreur(int a, double b).
+
+* Dans methode8(), la variable b ne peut pas être de type String car la méthode methodeSansErreur() prend en argument int a et double b.

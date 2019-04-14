@@ -1,0 +1,5 @@
+Exercice 8
+
+Pour la classe Moyenne1, la variable noteProgrammation est incrémentée de 1 après la somme avec la variable noteAlgebre. Nous auront donc l'affichage "Ma moyenne est 5,5" au premier appel de Moyenne1.
+
+Contrairement à la classe Moyenne2 où noteProgrammation est incrémentée de 1 avant d'être additionnée à noteAlgebre. L'affichage au premier appel de Moyenne2 sera donc "Ma moyenne est 6,0".
